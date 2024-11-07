@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-image: url(image/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    height: 300px;
+    color: aqua;
+}
+
+
+.project{
+    margin-top: 15px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.project-item{
+    float: left;
+    height: 300px;
+    width: 48%;
+    border: 1px solid green;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: blue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;  
+    
+}
+
+.project-content{
+    background-color: rgb(209, 147, 24);
+}
+
+.footer{
+    margin-top: 10px;
+    height: 150px;
+   background-color: #212129;
+   color: aliceblue;
+}
+
+.footer-item{
+    float: left;
+    width: 33%;
+}
+
+.link{
+    color: aqua;
+    text-decoration: none;
+    display: block;
+}
